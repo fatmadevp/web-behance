@@ -1,0 +1,263 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+
+}
+.milieu{
+	padding-top: 10px;
+background-image: url("bhc2.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;	
+height: 550px;	
+}
+.header{
+	display: flex;
+	margin-left:48%;
+}
+.text{
+ display: flex;
+
+}
+.text p{
+	margin-top: 20px;
+	color: #fff;
+	font-size: 17px;
+	padding-left: 5px;
+}
+.text img{
+	width: 33px;
+	height: 36px;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+.text .icon{
+	padding-left: 18px;
+}
+.num{
+	font-size: 12px;
+    color: #000;
+    margin-bottom: -13px;
+    padding-left: 1106px;
+}
+.crcl{
+	 
+    margin-bottom: -18px;
+    font-size: 17px;
+    padding-left: 1103px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    padding-left: 538px;
+    margin-top: 1em;
+}
+ul li{
+list-style: none;
+    margin-left: 40px;
+    margin-top: 18px;
+    font-size: 20px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.create{
+font-size: 50px;
+    padding-left: 569px;
+    font-weight: bold;
+    margin-top: 43px;
+}
+.whats{
+	font-size: 20px;
+	padding-left: 569px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.proceed{
+	width: 160px;
+	height: 40px;
+	background: #000;
+	border: none;
+	margin-top: 20px;
+	margin-left:564px;
+	font-size: 14px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.proceed a{
+	text-decoration: none;
+	color: #fff;
+}
+.brn img{
+	margin-top: 17px;
+	width: 1025px;
+    height: 146px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catg{
+	margin-top: 2em;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.dis-catg{
+	font-size: 16px;
+	text-align: center;
+	color: #7f8c8d;
+	margin-bottom: -121px;
+}
+.categorie{
+width: 707px;
+height: auto;
+/*background-color: red;*/
+margin: auto;
+}
+.left img{
+	    float: left;
+    width: 300px;
+    height: 420px;
+    margin-top: 0px;
+    position: relative;
+    left: 2px;
+}
+.right1 img{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-top: -57px ;
+	padding-left: 20px;
+}.right2 img{
+	float: right;
+	width: 200px;
+	height:200px ;
+	margin-top:-116px ;
+	padding-left: 20px;
+	position: relative;
+}
+.down img{
+	width: 379px;
+    height: 200px;
+    margin-top: -61px;
+    left: 28px;
+    position: relative;
+}
+.titre1{
+    top: 327px;
+    left: 60px;
+    position: relative;
+    z-index: 1;
+}
+.title{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	left: 20x;
+	color:#000 ;
+}
+.stitle{
+	font-size: 15px;
+	margin-top: -3px;
+	color:#84817a ;
+}
+.left .proceed{
+	top: 318px;
+    right: 479px;
+    position: relative;
+    z-index: 1;
+}
+.titre3{
+   top: 43px;
+    left: 79px;
+    position: relative;
+    z-index: 1
+
+}
+.titre2{
+   top: 99px;
+    left: 273px;
+position: relative;
+    z-index: 1;
+}
+.titre4{
+   top: 134px;
+    left: 114px;
+    position: relative;
+    z-index: 1;
+}
+.product{
+	display: flex;
+	margin-top: 9em;
+	justify-content: center;
+	align-items: center;
+	
+}
+.article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.article img{
+	width: 200.2px;
+	height: 247px;
+	padding-left: 20px;
+}
+
+.cercl-colore{
+	margin-top: 8px;
+    padding-right: 65px;
+    
+}
+.cercl-colore a {
+	padding-left: 5px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.article p{
+	margin-top: 14px;
+    text-align: left;
+    padding-right: 54px;
+        font-weight: bold;
+}
+
+.crcl1{ color:#bdc3c7; }
+.crcl2{ color:#3498db; }
+.crcl3{ color:#FDA7DF; }
+.crcl4{ color:#4cd137; }
+.crcl5{ color:#f0932b; }
+.dolar{
+	text-decoration: none;
+	margin-top: 10px;
+	padding-right: 100px;
+	color: #8395a7;
+}
+/********Designer's interior for your home***********/
+.des-home{
+margin-top: 57px;
+background-image: url("lampe.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 432px;	
+}
+.des-tit{
+	padding-top: 108px;
+    padding-left: 230px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.des-stit{
+	padding-top: 28px;
+    padding-left: 230px;
+    font-size: 20px;
+}
+.des-home button{
+	margin-top: 23px;
+    margin-left: 227px;
+}
